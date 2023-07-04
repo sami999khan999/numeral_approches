@@ -226,4 +226,4 @@ const myTime = new Date(2023, 6, 2, 3, 19, 44, 639);
 console.log(myTime.getTime(2023, 6, 2, 3, 19, 44, 639)); // timestamp
 
 console.log(new Date(1688246384639));
-// we can get the time from the time stamp using new Date(). //
+// we can get the time from the time stamp using new Date(). /
