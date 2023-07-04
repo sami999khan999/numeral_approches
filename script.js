@@ -10,24 +10,24 @@
 
 //============================================================================================================================================//
 
-const num = 3.1416;
+// const num = 3.1416;
 
-console.log(num.toFixed(5));
-console.log(num.toFixed(2));
-console.log(num.toFixed(1));
-// toFixed method returns the valuse as string. We can solve this problem by using Number method. //
-console.log(Number(num.toFixed(2)));
+// console.log(num.toFixed(5));
+// console.log(num.toFixed(2));
+// console.log(num.toFixed(1));
+// // toFixed method returns the valuse as string. We can solve this problem by using Number method. //
+// console.log(Number(num.toFixed(2)));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-const a = 0.1;
-const b = 0.2;
-const sum = a + b;
+// const a = 0.1;
+// const b = 0.2;
+// const sum = a + b;
 
-console.log(+sum.toFixed());
-console.log(+sum.toFixed(3));
-console.log(+sum.toFixed(1));
-// (+) can turn the string to number. //
+// console.log(+sum.toFixed());
+// console.log(+sum.toFixed(3));
+// console.log(+sum.toFixed(1));
+// // (+) can turn the string to number. //
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -39,22 +39,22 @@ console.log(+sum.toFixed(1));
 
 //============================================================================================================================================//
 
-console.log(parseInt("8.25rem"));
-console.log(parseFloat("8.25rem"));
-console.log(parseFloat("8 rem"));
-console.log(parseInt("s8 rem")); // resule: NaN
+// console.log(parseInt("8.25rem"));
+// console.log(parseFloat("8.25rem"));
+// console.log(parseFloat("8 rem"));
+// console.log(parseInt("s8 rem")); // resule: NaN
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // // parseInt can turn binary into decimal and decimal into binary. //
 
-console.log(parseInt("1011010", 2));
-console.log(parseInt(100, 2));
-console.log(parseInt(1010, 2));
-// 2 stands for binary //
-console.log(parseInt(1010, 10));
-console.log(parseInt(100, 10));
-// 10 stands for decimal //
+// console.log(parseInt("1011010", 2));
+// console.log(parseInt(100, 2));
+// console.log(parseInt(1010, 2));
+// // 2 stands for binary //
+// console.log(parseInt(1010, 10));
+// console.log(parseInt(100, 10));
+// // 10 stands for decimal //
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -72,9 +72,9 @@ console.log(parseInt(100, 10));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.sqrt(25));
-console.log(Math.sqrt(100));
-console.log(Math.sqrt(20));
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(100));
+// console.log(Math.sqrt(20));
 
 //============================================================================================================================================//
 
@@ -84,10 +84,10 @@ console.log(Math.sqrt(20));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-const arr = [7, 2, 8, 1, 3, 5, 9];
+// const arr = [7, 2, 8, 1, 3, 5, 9];
 
-console.log(Math.min(...arr));
-console.log(Math.max(...arr));
+// console.log(Math.min(...arr));
+// console.log(Math.max(...arr));
 
 //============================================================================================================================================//
 
@@ -97,9 +97,9 @@ console.log(Math.max(...arr));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.PI);
-console.log(Math.PI * 12 ** 2);
-console.log(2 * Math.PI * 12);
+// console.log(Math.PI);
+// console.log(Math.PI * 12 ** 2);
+// console.log(2 * Math.PI * 12);
 
 //============================================================================================================================================//
 
@@ -109,10 +109,10 @@ console.log(2 * Math.PI * 12);
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.trunc(3.1));
-console.log(Math.trunc(10.9));
-console.log(Math.trunc(0.334545));
-console.log(Math.trunc(-5.234));
+// console.log(Math.trunc(3.1));
+// console.log(Math.trunc(10.9));
+// console.log(Math.trunc(0.334545));
+// console.log(Math.trunc(-5.234));
 
 //============================================================================================================================================//
 
@@ -122,9 +122,9 @@ console.log(Math.trunc(-5.234));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.random()); // 0 - 99999
-console.log(Math.random() * 20); // 0 - 19.9999
-console.log(Math.trunc(Math.random() * 100)); // 0 - 99
+// console.log(Math.random()); // 0 - 99999
+// console.log(Math.random() * 20); // 0 - 19.9999
+// console.log(Math.trunc(Math.random() * 100)); // 0 - 99
 
 //============================================================================================================================================//
 
@@ -134,9 +134,9 @@ console.log(Math.trunc(Math.random() * 100)); // 0 - 99
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.floor(2.9));
-console.log(Math.floor(2.1));
-console.log(Math.floor(2.5));
+// console.log(Math.floor(2.9));
+// console.log(Math.floor(2.1));
+// console.log(Math.floor(2.5));
 
 //============================================================================================================================================//
 
@@ -146,9 +146,9 @@ console.log(Math.floor(2.5));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.ceil(2.1));
-console.log(Math.ceil(2.9));
-console.log(Math.ceil(2.5));
+// console.log(Math.ceil(2.1));
+// console.log(Math.ceil(2.9));
+// console.log(Math.ceil(2.5));
 
 //============================================================================================================================================//
 
@@ -158,12 +158,12 @@ console.log(Math.ceil(2.5));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(Math.round(2.5));
-console.log(Math.round(2.1));
-console.log(Math.round(2.4));
-console.log(Math.round(2.9));
-console.log(Math.round(-2.9));
-console.log(Math.round(-2.1));
+// console.log(Math.round(2.5));
+// console.log(Math.round(2.1));
+// console.log(Math.round(2.4));
+// console.log(Math.round(2.9));
+// console.log(Math.round(-2.9));
+// console.log(Math.round(-2.1));
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -175,11 +175,11 @@ console.log(Math.round(-2.1));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(BigInt(29765235657923647236726582768567589678947694766));
-console.log(29765235657923647236726582768567589678947694766n);
-console.log(100000n * 100000n);
-console.log(10n === 10);
-console.log(typeof 9275829234923498247927465746537n);
+// console.log(BigInt(29765235657923647236726582768567589678947694766));
+// console.log(29765235657923647236726582768567589678947694766n);
+// console.log(100000n * 100000n);
+// console.log(10n === 10);
+// console.log(typeof 9275829234923498247927465746537n);
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -191,39 +191,153 @@ console.log(typeof 9275829234923498247927465746537n);
 
 //============================================================================================================================================//
 
-const date = new Date();
-console.log(date);
-// new Date() method returns the current date and time. //
+// const date = new Date();
+// console.log(date);
+// // new Date() method returns the current date and time. //
 
-console.log(new Date("july 14 2020 10:45:12"));
-console.log(new Date(2023, 6, 15, 4, 55, 10));
-// mounth in 0 based. (january = 0 ------ decenber = 11) //
-
-//--------------------------------------------------------------------------------------------------------------------------------------------//
-
-console.log(new Date(0));
-// When you execute console.log(new Date(0)), it creates a new Date object representing the date and time corresponding to the Unix timestamp 0. The Unix timestamp 0 represents the starting point of Unix time, which is January 1, 1970, 00:00:00 UTC. //
-
-console.log(new Date(3 * 24 * 60 * 60 * 1000));
-// thes in 3 days after. //
+// console.log(new Date("july 14 2020 10:45:12"));
+// console.log(new Date(2023, 6, 15, 4, 55, 10));
+// // mounth in 0 based. (january = 0 ------ decenber = 11) //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-const time = new Date(2023, 6, 2, 3, 19, 44, 639);
-console.log(time);
-console.log(time.getDate());
-console.log(time.getFullYear());
-console.log(time.getHours());
-console.log(time.getMinutes());
-console.log(time.getSeconds());
-console.log(time.getMilliseconds());
-console.log(time.getTimezoneOffset());
+// console.log(new Date(0));
+// // When you execute console.log(new Date(0)), it creates a new Date object representing the date and time corresponding to the Unix timestamp 0. The Unix timestamp 0 represents the starting point of Unix time, which is January 1, 1970, 00:00:00 UTC. //
+
+// console.log(new Date(3 * 24 * 60 * 60 * 1000));
+// // thes in 3 days after. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-const myTime = new Date(2023, 6, 2, 3, 19, 44, 639);
+// const time = new Date(2023, 6, 2, 3, 19, 44, 639);
+// console.log(time);
+// console.log(time.getDate());
+// console.log(time.getFullYear());
+// console.log(time.getHours());
+// console.log(time.getMinutes());
+// console.log(time.getSeconds());
+// console.log(time.getMilliseconds());
+// console.log(time.getTimezoneOffset());
 
-console.log(myTime.getTime(2023, 6, 2, 3, 19, 44, 639)); // timestamp
+//--------------------------------------------------------------------------------------------------------------------------------------------//
 
-console.log(new Date(1688246384639));
-// we can get the time from the time stamp using new Date(). /
+// const myTime = new Date(2023, 6, 2, 3, 19, 44, 639);
+
+// console.log(myTime.getTime(2023, 6, 2, 3, 19, 44, 639)); // timestamp
+
+// console.log(new Date(1688246384639));
+// // we can get the time from the time stamp using new Date(). //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const newDate = new Date(1668346354619);
+
+// const year = newDate.getFullYear();
+// const mounth = newDate.getMonth();
+// const day = newDate.getDate();
+
+// console.log(`${day}/${mounth + 1}/${year}`);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // Intl
+
+// // there is an Internationalization API (Intl) available in JavaScript that provides a set of features for formatting and manipulating strings, numbers, dates, and times according to different locales. //
+
+//============================================================================================================================================//
+
+// // currency
+
+// const num = 657657;
+
+// const displayCurrency = new Intl.NumberFormat("en-US", {
+//   style: "currency",
+//   currency: "USD",
+// }).format(num);
+
+// console.log(displayCurrency);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // to formate the currency using Intl.NumberFormate you can provide options such as stile, currency, currencyDisplay and more. //
+
+// // style: Specifies the formatting style. Possible values are "decimal" (default), "currency", "percent", and "unit".
+
+// // currency: Specifies the currency code or symbol to use for currency formatting. It should be a valid ISO 4217 currency code or a currency symbol string.
+
+// // currencyDisplay: Specifies how the currency should be displayed. Possible values are "symbol" (default), "narrowSymbol", "code", and "name".
+
+// // currencySign: Specifies whether to display the currency sign for positive and negative numbers. Possible values are "standard" (default), "accounting", and "negative".
+
+// const num = 657657;
+
+// const displayCurrency = new Intl.NumberFormat("bn-BD", {
+//   style: "currency",
+//   currency: "BDT",
+//   currencyDisplay: "symbol",
+// }).format(num);
+
+// console.log(displayCurrency);
+
+//============================================================================================================================================//
+
+// // time
+
+// const time = 1668346354619;
+
+// const displayTime = new Intl.DateTimeFormat("en-US").format(time)
+
+// console.log(displayTime)
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // To format the time using Intl.DateTimeFormat, you can provide options such as the date style, time style, time zone, and more. //
+
+// // localeMatcher: Specifies the locale matching algorithm. Possible values are "lookup" (default) and "best fit".
+
+// // weekday: Specifies the display of the weekday. Possible values are "narrow", "short", "long".
+
+// // era: Specifies the display of the era. Possible values are "narrow", "short", "long".
+
+// // year: Specifies the display of the year. Possible values are "numeric", "2-digit".
+
+// // month: Specifies the display of the month. Possible values are "numeric", "2-digit", "narrow", "short", "long".
+
+// // day: Specifies the display of the day. Possible values are "numeric", "2-digit".
+
+// // hour: Specifies the display of the hour. Possible values are "numeric", "2-digit".
+
+// // minute: Specifies the display of the minute. Possible values are "numeric", "2-digit".
+
+// // second: Specifies the display of the second. Possible values are "numeric", "2-digit".
+
+// // timeZoneName: Specifies the display of the time zone. Possible values are "short", "long".
+
+// // formatMatcher: Specifies the format matching algorithm. Possible values are "basic" (default) and "best fit".
+
+// // hour12: Specifies whether to use 12-hour or 24-hour clock. Possible values are true and false.
+
+// // hourCycle: Specifies the hour cycle. Possible values are "h11", "h12", "h23", "h24".
+
+// // timeZone: Specifies the time zone to use. This should be a valid IANA time zone identifier.
+
+// // dateStyle: Specifies the date style. Possible values are "full", "long", "medium", "short".
+
+// // timeStyle: Specifies the time style. Possible values are "full", "long", "medium", "short".
+
+// const time = new Date().getTime();
+
+// const displayTime = new Intl.DateTimeFormat("bn-BD", {
+//   weekday: "long",
+//   year: "numeric",
+//   month: "long",
+//   day: "numeric",
+//   hour: "numeric",
+//   minute: "numeric",
+//   second: "numeric",
+//   timeZoneName: "long",
+// }).format(time);
+
+// console.log(displayTime);
