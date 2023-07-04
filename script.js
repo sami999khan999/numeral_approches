@@ -168,3 +168,62 @@ console.log(Math.round(-2.1));
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
+
+// // bigInt
+
+// // BigInt is a built-in object in JavaScript that provides a way to represent and work with arbitrarily large integers. It was introduced in ECMAScript 2020 to address the limitations of the Number type, which has a maximum safe integer value. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log(BigInt(29765235657923647236726582768567589678947694766));
+console.log(29765235657923647236726582768567589678947694766n);
+console.log(100000n * 100000n);
+console.log(10n === 10);
+console.log(typeof 9275829234923498247927465746537n);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // dates
+
+// // In JavaScript, the Date object provides a way to work with dates and times. The Date object can be used to create new instances representing specific dates and times, as well as perform various operations and retrieve information about dates and times. //
+
+//============================================================================================================================================//
+
+const date = new Date();
+console.log(date);
+// new Date() method returns the current date and time. //
+
+console.log(new Date("july 14 2020 10:45:12"));
+console.log(new Date(2023, 6, 15, 4, 55, 10));
+// mounth in 0 based. (january = 0 ------ decenber = 11) //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+console.log(new Date(0));
+// When you execute console.log(new Date(0)), it creates a new Date object representing the date and time corresponding to the Unix timestamp 0. The Unix timestamp 0 represents the starting point of Unix time, which is January 1, 1970, 00:00:00 UTC. //
+
+console.log(new Date(3 * 24 * 60 * 60 * 1000));
+// thes in 3 days after. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+const time = new Date(2023, 6, 2, 3, 19, 44, 639);
+console.log(time);
+console.log(time.getDate());
+console.log(time.getFullYear());
+console.log(time.getHours());
+console.log(time.getMinutes());
+console.log(time.getSeconds());
+console.log(time.getMilliseconds());
+console.log(time.getTimezoneOffset());
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+const myTime = new Date(2023, 6, 2, 3, 19, 44, 639);
+
+console.log(myTime.getTime(2023, 6, 2, 3, 19, 44, 639)); // timestamp
+
+console.log(new Date(1688246384639));
+// we can get the time from the time stamp using new Date(). //
