@@ -74,8 +74,6 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// // parseInt can turn binary into decimal and decimal into binary. //
-
 // console.log(parseInt("1011010", 2));
 // console.log(parseInt(100, 2));
 // console.log(parseInt(1010, 2));
