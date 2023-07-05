@@ -289,13 +289,13 @@
 
 // // to formate the currency using Intl.NumberFormate you can provide options such as stile, currency, currencyDisplay and more. //
 
-// // style: Specifies the formatting style. Possible values are "decimal" (default), "currency", "percent", and "unit".
+// // style: Specifies the formatting style. Possible values are "decimal" (default), "currency", "percent", and "unit". //
 
-// // currency: Specifies the currency code or symbol to use for currency formatting. It should be a valid ISO 4217 currency code or a currency symbol string.
+// // currency: Specifies the currency code or symbol to use for currency formatting. It should be a valid ISO 4217 currency code or a currency symbol string. //
 
-// // currencyDisplay: Specifies how the currency should be displayed. Possible values are "symbol" (default), "narrowSymbol", "code", and "name".
+// // currencyDisplay: Specifies how the currency should be displayed. Possible values are "symbol" (default), "narrowSymbol", "code", and "name". //
 
-// // currencySign: Specifies whether to display the currency sign for positive and negative numbers. Possible values are "standard" (default), "accounting", and "negative".
+// // currencySign: Specifies whether to display the currency sign for positive and negative numbers. Possible values are "standard" (default), "accounting", and "negative". //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -323,37 +323,37 @@
 
 // // To format the time using Intl.DateTimeFormat, you can provide options such as the date style, time style, time zone, and more. //
 
-// // localeMatcher: Specifies the locale matching algorithm. Possible values are "lookup" (default) and "best fit".
+// // localeMatcher: Specifies the locale matching algorithm. Possible values are "lookup" (default) and "best fit". //
 
-// // weekday: Specifies the display of the weekday. Possible values are "narrow", "short", "long".
+// // weekday: Specifies the display of the weekday. Possible values are "narrow", "short", "long". //
 
-// // era: Specifies the display of the era. Possible values are "narrow", "short", "long".
+// // era: Specifies the display of the era. Possible values are "narrow", "short", "long". //
 
-// // year: Specifies the display of the year. Possible values are "numeric", "2-digit".
+// // year: Specifies the display of the year. Possible values are "numeric", "2-digit". //
 
-// // month: Specifies the display of the month. Possible values are "numeric", "2-digit", "narrow", "short", "long".
+// // month: Specifies the display of the month. Possible values are "numeric", "2-digit", "narrow", "short", "long". //
 
-// // day: Specifies the display of the day. Possible values are "numeric", "2-digit".
+// // day: Specifies the display of the day. Possible values are "numeric", "2-digit". //
 
-// // hour: Specifies the display of the hour. Possible values are "numeric", "2-digit".
+// // hour: Specifies the display of the hour. Possible values are "numeric", "2-digit". //
 
-// // minute: Specifies the display of the minute. Possible values are "numeric", "2-digit".
+// // minute: Specifies the display of the minute. Possible values are "numeric", "2-digit". //
 
-// // second: Specifies the display of the second. Possible values are "numeric", "2-digit".
+// // second: Specifies the display of the second. Possible values are "numeric", "2-digit". //
 
-// // timeZoneName: Specifies the display of the time zone. Possible values are "short", "long".
+// // timeZoneName: Specifies the display of the time zone. Possible values are "short", "long". //
 
-// // formatMatcher: Specifies the format matching algorithm. Possible values are "basic" (default) and "best fit".
+// // formatMatcher: Specifies the format matching algorithm. Possible values are "basic" (default) and "best fit". //
 
-// // hour12: Specifies whether to use 12-hour or 24-hour clock. Possible values are true and false.
+// // hour12: Specifies whether to use 12-hour or 24-hour clock. Possible values are true and false. //
 
-// // hourCycle: Specifies the hour cycle. Possible values are "h11", "h12", "h23", "h24".
+// // hourCycle: Specifies the hour cycle. Possible values are "h11", "h12", "h23", "h24". //
 
-// // timeZone: Specifies the time zone to use. This should be a valid IANA time zone identifier.
+// // timeZone: Specifies the time zone to use. This should be a valid IANA time zone identifier. //
 
-// // dateStyle: Specifies the date style. Possible values are "full", "long", "medium", "short".
+// // dateStyle: Specifies the date style. Possible values are "full", "long", "medium", "short". //
 
-// // timeStyle: Specifies the time style. Possible values are "full", "long", "medium", "short".
+// // timeStyle: Specifies the time style. Possible values are "full", "long", "medium", "short". //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
