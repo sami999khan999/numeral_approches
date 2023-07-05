@@ -4,6 +4,34 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
+// toFixed method -
+
+// parsing -
+
+// Math methods {
+// Math.sqrt -
+// Math.min and Math.max -
+// Math.PI -
+// Math.trunc -
+// Math.random -
+// Math.floor -
+// Math.seal -
+// Math.round -
+// }
+
+// bigInt -
+
+// dates -
+
+// Intl {
+// currency using Intl -
+// time using Intl -
+// }
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
 // // toFixed method
 
 // // The toFixed() method is a built-in JavaScript function that is used to format a number with a fixed number of decimal places and return it as a string. It allows you to specify the number of digits after the decimal point. //
@@ -15,7 +43,7 @@
 // console.log(num.toFixed(5));
 // console.log(num.toFixed(2));
 // console.log(num.toFixed(1));
-// // toFixed method returns the valuse as string. We can solve this problem by using Number method. //
+// // toFixed method returns the valuse as string. We can avoid this problem by using Number method. //
 // console.log(Number(num.toFixed(2)));
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
@@ -25,7 +53,7 @@
 // const sum = a + b;
 
 // console.log(+sum.toFixed());
-// console.log(+sum.toFixed(3));
+// console.log(+sum.toFixed(10));
 // console.log(+sum.toFixed(1));
 // // (+) can turn the string to number. //
 
@@ -78,7 +106,7 @@
 
 //============================================================================================================================================//
 
-// //  Math.min and Math.max
+// // Math.min and Math.max
 
 // // The Math.min() and Math.max() functions are part of the Math object in JavaScript and are used to find the minimum and maximum values, respectively, among a set of numbers. //
 
@@ -248,7 +276,7 @@
 
 //============================================================================================================================================//
 
-// // currency
+// // currency using Intl
 
 // const num = 657657;
 
@@ -271,6 +299,8 @@
 
 // // currencySign: Specifies whether to display the currency sign for positive and negative numbers. Possible values are "standard" (default), "accounting", and "negative".
 
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
 // const num = 657657;
 
 // const displayCurrency = new Intl.NumberFormat("bn-BD", {
@@ -283,7 +313,7 @@
 
 //============================================================================================================================================//
 
-// // time
+// // time using Intl
 
 // const time = 1668346354619;
 
@@ -327,6 +357,8 @@
 
 // // timeStyle: Specifies the time style. Possible values are "full", "long", "medium", "short".
 
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
 // const time = new Date().getTime();
 
 // const displayTime = new Intl.DateTimeFormat("bn-BD", {
@@ -340,4 +372,4 @@
 //   timeZoneName: "long",
 // }).format(time);
 
-// console.log(displayTime);
+// console.log(displayTime)
