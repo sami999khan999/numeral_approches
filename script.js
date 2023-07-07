@@ -28,6 +28,11 @@
 // time using Intl -
 // }
 
+// setTimeout and setInterval {
+// setTimeout -
+// setInterval -
+// }
+
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
@@ -317,7 +322,7 @@
 
 // const displayTime = new Intl.DateTimeFormat("en-US").format(time)
 
-// console.log(displayTime)
+// console.log(displayTime);
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -371,3 +376,41 @@
 // }).format(time);
 
 // console.log(displayTime);
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // setTimeout and setInterval
+
+// // setTimeout and setInterval are JavaScript functions used to execute code after a certain delay or at regular intervals, respectively. //
+
+//============================================================================================================================================//
+
+// // setTimeout
+
+// // The setInterval function is used to execute a specified function or a code snippet repeatedly at a fixed interval. It takes two arguments: a function or code to execute and the interval in milliseconds. //
+
+// setTimeout(() => {
+//   console.log("Hello World");
+// }, 3000);
+
+//============================================================================================================================================//
+
+// // setInterval
+
+// // The setInterval function is used to execute a specified function or a code snippet repeatedly at a fixed interval. It takes two arguments: a function or code to execute and the interval in milliseconds. //
+
+// setInterval(() => {
+//   console.log("Hello World");
+// }, 1000);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// setInterval(() => {
+//   const time = new Date();
+//   const hour = time.getHours();
+//   const minute = time.getMinutes();
+//   const second = time.getSeconds();
+//   console.log(`${hour}:${minute}:${second}`);
+// }, 1000);
